@@ -1,0 +1,11 @@
+### Get all contacts (local)
+GET http://localhost:3000/contacts
+
+### Get single contact by id (local) - replace with a real id from your DB
+GET http://localhost:3000/contacts/XXXX
+
+### Get all contacts (Render) - update with your Render URL after deploy
+GET https://TU-SERVICIO.onrender.com/contacts
+
+### Get single contact (Render)
+GET https://TU-SERVICIO.onrender.com/contacts/XXXX
