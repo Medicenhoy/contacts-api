@@ -24,7 +24,7 @@ Content-Type: application/json
 }
 
 ### Update contact (local)
-PUT http://localhost:3000/contacts/PON_AQUI_UN_ID HTTP/1.1
+PUT http://localhost:3000/contacts/6aa340b76be98b4530a9e356 HTTP/1.1
 Content-Type: application/json
 
 {
@@ -36,4 +36,4 @@ Content-Type: application/json
 }
 
 ### Delete contact (local)
-DELETE http://localhost:3000/contacts/PON_AQUI_UN_ID HTTP/1.1
+DELETE http://localhost:3000/contacts/6aa340b76be98b4530a9e356 HTTP/1.1
