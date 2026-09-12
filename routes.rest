@@ -1,15 +1,8 @@
-
 ### Get all contacts (local)
 GET http://localhost:3000/contacts
 
 ### Get single contact by id (local)
 GET http://localhost:3000/contacts/6a9cb4ccd85fecf182d4c14d
-
-### Get all contacts (Render)
-GET https://contacts-api-v0ht.onrender.com/contacts
-
-### Get single contact (Render)
-GET https://contacts-api-v0ht.onrender.com/contacts/6a9cb4ccd85fecf182d4c14d
 
 ### Create contact (local)
 POST http://localhost:3000/contacts HTTP/1.1
@@ -24,7 +17,7 @@ Content-Type: application/json
 }
 
 ### Update contact (local)
-PUT http://localhost:3000/contacts/6aa340b76be98b4530a9e356 HTTP/1.1
+PUT http://localhost:3000/contacts/PON_UN_ID_AQUI HTTP/1.1
 Content-Type: application/json
 
 {
@@ -36,4 +29,40 @@ Content-Type: application/json
 }
 
 ### Delete contact (local)
-DELETE http://localhost:3000/contacts/6aa340b76be98b4530a9e356 HTTP/1.1
+DELETE http://localhost:3000/contacts/PON_UN_ID_AQUI HTTP/1.1
+
+
+########## RENDER ##########
+
+### Get all contacts (Render)
+GET https://contacts-api-v0ht.onrender.com/contacts
+
+### Get single contact by id (Render)
+GET https://contacts-api-v0ht.onrender.com/contacts/6a9cb4ccd85fecf182d4c14d
+
+### Create contact (Render)
+POST https://contacts-api-v0ht.onrender.com/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Maria",
+  "lastName": "Lopez",
+  "email": "maria@example.com",
+  "favoriteColor": "purple",
+  "birthday": "1995-03-20"
+}
+
+### Update contact (Render)
+PUT https://contacts-api-v0ht.onrender.com/contacts/PON_UN_ID_AQUI HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Maria",
+  "lastName": "Lopez",
+  "email": "maria.updated@example.com",
+  "favoriteColor": "red",
+  "birthday": "1995-03-20"
+}
+
+### Delete contact (Render)
+DELETE https://contacts-api-v0ht.onrender.com/contacts/PON_UN_ID_AQUI HTTP/1.1

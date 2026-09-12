@@ -5,10 +5,9 @@
     "description": "Contacts API - CSE 341",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "contacts-api-v0ht.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
